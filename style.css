@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;400;700&family=Fira+Sans&family=Montserrat&family=Poppins:ital,wght@0,700;1,400;1,800&family=Roboto+Mono:wght@700&family=Space+Mono:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Mono', monospace;
+}
+
+body {
+    background-color: hsl(185, 41%, 84%);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.main {
+    width: 400px;
+    height: 53vh;
+    background-color: white;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content {
+    max-width: 70%;
+    margin: 4rem auto;
+}
+
+.fText {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 4rem;
+}
+
+#total-amount {
+    font-size: 2.5rem;
+}
+
+label {
+    font-size: .8rem;
+    color: hsl(186, 14%, 43%);
+}
+
+.btn-heading {
+    font-size: .8rem;
+    color: hsl(186, 14%, 43%);
+}
+
+.btns1 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.btns2 {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.btn {
+    background-color: hsl(183, 100%, 15%);
+    width: 80px;
+    color: white;
+    padding: 7px 25px;
+    border: none;
+    outline: none;
+    border-radius: .3rem;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.btn:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: black;
+}
+
+
+#input-text {
+    width: 280px;
+    text-align: right;
+    background-image: url("images/icon-dollar.svg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position: 3%;
+    padding: 5px 8px;
+    border: none;
+    outline: none;
+    background-color: hsl(189, 41%, 97%);
+    font-size: 1rem;
+    border-radius: .4rem;
+}
+
+#input-text:focus {
+    border: 1px solid hsl(172, 67%, 45%);
+    margin: -1px;
+}

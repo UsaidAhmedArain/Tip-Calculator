@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calcultor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="logo">
+        <img src="images/logo.svg" alt="">
+    </div>
+
+    <div class="main content ">
+        <div class="left">
+            <div id="input">
+                <label for="amount">Bill</label><br>
+                <input type="text" name="amount" id="input-text" autocomplete="off" placeholder="0">
+            </div>
+            <p class="btn-heading">Select Tip %</p>
+            <div class="btns1">
+                <input type="button" value="5%" id="5percent" class="btn">
+                <input type="button" value="10%" id="10percent" class="btn">
+                <input type="button" value="15%" id="15percent" class="btn">
+            </div>
+            <div class="btns2">
+                <input type="button" value="25%" id="25percent" class="btn">
+                <input type="button" value="50%" id="50percent" class="btn">
+                <input type="button" value="70%" id="70percent" class="btn">
+            </div>
+            <div class="fText">
+                <p class="text">Tip Amount</p>
+                <span id="total-amount">0.00$</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
